@@ -1,0 +1,23 @@
+{
+    "total_predictions": 50,
+    "mean_prediction": 478.3054562400365,
+    "drift_detected": true,
+    "alerts": [
+        {
+            "feature": "temperature_c",
+            "train_mean": 32.24,
+            "live_mean": 33.0,
+            "shift": 0.759999999999998,
+            "threshold": 5.46,
+            "status": "ALERT"
+        },
+        {
+            "feature": "occupancy_pct",
+            "train_mean": 57.52,
+            "live_mean": 68.0,
+            "shift": 10.479999999999997,
+            "threshold": 13.17,
+            "status": "ALERT"
+        }
+    ]
+}

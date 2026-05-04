@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/status",
+  "predict_endpoint": "/estimate",
+  "port": 8080,
+  "health_response": {
+    "status": "healthy",
+    "model_loaded": true
+  },
+  "test_input": {
+    "temperature_c": 33.0,
+    "building_sqm": 218.8,
+    "occupancy_pct": 52.6,
+    "is_weekday": 0
+  },
+  "prediction": 417.7279553682525
+}

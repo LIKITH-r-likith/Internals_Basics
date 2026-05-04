@@ -1,0 +1,18 @@
+{
+    "experiment_name": "powergrid-energy-kwh",
+    "models": [
+        {
+            "name": "Lasso",
+            "mae": 47.25514801308266,
+            "rmse": 57.73804078392877
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 92.66392724794349,
+            "rmse": 105.81489013223916
+        }
+    ],
+    "best_model": "Lasso",
+    "best_metric_name": "mae",
+    "best_metric_value": 47.25514801308266
+}
